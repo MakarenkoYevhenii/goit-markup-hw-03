@@ -207,7 +207,6 @@ h1,h2,h3,h4,p,ul
     text-decoration: none;
     color:var(--whitetext);
     font-size: 26px;
-    margin-left:40px;
 }
 .emblema-basment:hover
 {
@@ -285,12 +284,22 @@ h1,h2,h3,h4,p,ul
     display: flex;
     width: 700px;
 }
+/*basement*/
+.letter
+{
+    margin-top: 20px;
+}
+.list-basment>li
+{
+    margin-top: 9px;
+}
 
 /*LI*/
 .list
 {
     display: flex;
     margin-right: 50px;
+    padding-top: 8px;
 }
 .link,.link1
 {
@@ -300,6 +309,7 @@ h1,h2,h3,h4,p,ul
 {
     display: flex;
     margin-left: auto;
+    padding-top: 8px;
 }
 
 .listedge,.listbenefits
@@ -318,7 +328,6 @@ h1,h2,h3,h4,p,ul
     border-style:solid;
     border-color: var(--colorofborders);
     border-width: 1px;
-    margin-top: 30px;
     width: 370px;
 }
 .imgproject
@@ -331,13 +340,13 @@ h1,h2,h3,h4,p,ul
 {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 10%;
 }
 .menu
 {
     display: flex;
     align-content: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .menu-button
 {
@@ -357,6 +366,10 @@ h1,h2,h3,h4,p,ul
 {
     padding-right: 30px;
 }
+.benefits
+{
+    padding-bottom: 50px;
+}
 .listofbebefits
 {
  
@@ -366,7 +379,10 @@ h1,h2,h3,h4,p,ul
 {
     padding-right: 0px;
 }
-
+.team-heading
+{
+    padding-bottom: 50px;
+}
 .list-team
 {
     display: flex;
@@ -409,4 +425,8 @@ h1,h2,h3,h4,p,ul
 {
     display: flex;
     padding-left: 24px;
+}
+.blank
+{
+    padding: 24px;
 }
