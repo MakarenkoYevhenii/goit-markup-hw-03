@@ -26,6 +26,7 @@ h1,h2,h3,h4,p,ul
 {
     margin: 0;
     padding:0;
+    
 }
 .link
 {
@@ -310,7 +311,7 @@ h1,h2,h3,h4,p,ul
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    
+    gap:30px;
 }
 .listprojects>li
 {
@@ -318,6 +319,12 @@ h1,h2,h3,h4,p,ul
     border-color: var(--colorofborders);
     border-width: 1px;
     margin-top: 30px;
+    width: 370px;
+}
+.imgproject
+{
+    width: 100%;
+    height: auto;
 }
 /*portfolio*/
 .portfolio
