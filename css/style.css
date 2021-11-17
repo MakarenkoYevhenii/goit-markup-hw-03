@@ -356,12 +356,7 @@ ul {
   flex-wrap: wrap;
   gap: 30px;
 }
-.listprojects > li {
-  border-style: solid;
-  border-color: var(--colorofborders);
-  border-width: 1px;
-  width: 370px;
-}
+
 .imgproject {
   width: 100%;
   height: auto;
@@ -378,8 +373,14 @@ padding-left: 24px;
 padding-top: 4px;
 }
 .blank {
-  padding-top: 20px;
+
+  margin-top: -10px;
+  padding-top: 10px;
   padding-left:11px;
   padding-bottom: 20px;
-  align-items: center;
+  border-style: solid;
+  border-color: var(--colorofborders);
+  border-width: 1px;
+  width: 370px;
+  border-top: none;
 }
