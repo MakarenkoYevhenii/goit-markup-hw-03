@@ -155,6 +155,7 @@ img
 .basment {
   background-color: var(--rockcolor);
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .heading,
 .listedge-heading {
@@ -163,8 +164,7 @@ img
   text-transform: uppercase;
   letter-spacing: 0.03em;
   line-height: 1.17;
-  padding-right: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .paragraph
  {
@@ -299,10 +299,9 @@ letter-spacing: 0.03em;
 /*basement*/
 .letter {
     margin-top: 20px;
-    padding-bottom:60px;
   }
 
-  .list-basment > li {
+  .list-basment > li:not(:first-child) {
     margin-top: 9px;
   }
 /*index*/ 
@@ -310,11 +309,12 @@ letter-spacing: 0.03em;
 .listedge,
 .listbenefits {
   display: flex;
+  justify-content: space-between;
 }
 .listedge-list
 {
     width: 270px;
-    padding-right: 30px;
+   
 }
 .listedge-list:last-child
 {
@@ -348,7 +348,7 @@ letter-spacing: 0.03em;
 
 /*тим*/
 .team-heading {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .list-team {
   display: flex;
@@ -374,8 +374,8 @@ letter-spacing: 0.03em;
 }
 .teamdiv
 {
-    margin-top: 30px;
-    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 /*portfolio*/
 
