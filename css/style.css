@@ -153,6 +153,7 @@ img
 }
 .basment {
   background-color: var(--rockcolor);
+  padding-top: 60px;
 }
 .heading,
 .listedge-heading {
@@ -259,6 +260,7 @@ img
 .header-navigation {
   display: flex;
   width: 700px;
+  align-items: center;
 }
 .list {
   display: flex;
@@ -288,7 +290,9 @@ img
 /*basement*/
 .letter {
     margin-top: 20px;
+    padding-bottom:60px;
   }
+
   .list-basment > li {
     margin-top: 9px;
   }
@@ -389,14 +393,12 @@ img
 
 }
 .paragraph {
-    display: flex;
+display: flex;
 padding-left: 24px;
 padding-top: 4px;
 }
 .blank {
-
-  margin-top: -10px;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left:11px;
   padding-bottom: 20px;
   border-style: solid;
