@@ -317,7 +317,7 @@ img
 .container-flex-hero
 {
     box-sizing: border-box;
-    
+    padding-bottom: 200px;
 }
 .section-benefits
 {
